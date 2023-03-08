@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6c6d93f-c1db-498d-a4e6-d93972c94153" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio1/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio1/Repositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio1/Texto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio1/Versionador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Docente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/IChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/IPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Jugador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Sala.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/INotificacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/IPagina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/IUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/Imagen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/Web.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Jugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Sala.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Examen.Ejercicio2.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Examen.Ejercicio1.Client" />
       <module name="ExamenParcial2_DesignPattern.main" />
@@ -68,8 +68,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Examen.Ejercicio2.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Examen.Ejercicio2.Client" />
+      <module name="ExamenParcial2_DesignPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Examen.Ejercicio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Examen.Ejercicio2.Client" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
@@ -97,12 +111,20 @@
       <option name="project" value="LOCAL" />
       <updated>1678312382427</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 1">
+      <created>1678315251292</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678315251292</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Templates Parcial 2" />
     <MESSAGE value="Carpeta Examen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carpeta Examen" />
+    <MESSAGE value="Commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 1" />
   </component>
 </project>

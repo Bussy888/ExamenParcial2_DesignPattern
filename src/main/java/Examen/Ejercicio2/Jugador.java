@@ -16,7 +16,7 @@ public class Jugador implements IPlayer{
         chat.send(mensaje, this, null, "");
     }
     public void send(String mensaje, IPlayer receptor){
-        chat.send(mensaje, this, receptor, " ");
+        chat.send(mensaje, this, receptor, "");
     }
     public void sendAll(String mensaje, String sala){
         chat.send(mensaje,this,null,sala);

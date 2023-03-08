@@ -4,7 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6c6d93f-c1db-498d-a4e6-d93972c94153" name="Changes" comment="" />
+    <list default="true" id="b6c6d93f-c1db-498d-a4e6-d93972c94153" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T1Mediator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T1Mediator/Colleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T1Mediator/ConcreteColleagueA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T1Mediator/ConcreteColleagueB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T1Mediator/ConcreteMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T1Mediator/IMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T2Memento/CareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T2Memento/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T2Memento/ConcreteObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T2Memento/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T2Memento/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T3ChainOfResponsability/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T3ChainOfResponsability/HandlerConcreteA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T3ChainOfResponsability/HandlerConcreteB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T3ChainOfResponsability/HandlerConcreteC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T3ChainOfResponsability/HandlerConcreteD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T3ChainOfResponsability/HandlerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T3ChainOfResponsability/IHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T4Command/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T4Command/ConcreteCommand1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T4Command/ConcreteCommand2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T4Command/ConcreteCommand3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T4Command/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T4Command/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T4Command/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T5Observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T5Observer/ConcreteObserverA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T5Observer/ConcreteObserverB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T5Observer/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T5Observer/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T5Observer/ISubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T6State/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T6State/ConcreteState1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T6State/ConcreteState2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T6State/ConcreteState3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T6State/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T6State/IState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T7Strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T7Strategy/ConcreteStrategy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T7Strategy/ConcreteStrategy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T7Strategy/ConcreteStrategy3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T7Strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Templates/T7Strategy/IStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +60,19 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MhkTWqanMEdtve3H9oDalOJR4n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

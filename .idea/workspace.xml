@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6c6d93f-c1db-498d-a4e6-d93972c94153" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio1/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio1/Repositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio1/Texto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio1/Versionador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Docente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/IChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/IPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Jugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio2/Sala.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,6 +54,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Examen.Ejercicio1.Client" />
+      <module name="ExamenParcial2_DesignPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Examen.Ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,11 +90,19 @@
       <option name="project" value="LOCAL" />
       <updated>1678244005578</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Carpeta Examen">
+      <created>1678312382427</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678312382427</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Templates Parcial 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Templates Parcial 2" />
+    <MESSAGE value="Carpeta Examen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Carpeta Examen" />
   </component>
 </project>

@@ -19,11 +19,11 @@ public class Web implements IPagina{
 
     @Override
     public void notify(INotificacion notificacion) {
-        System.out.println("Notificacion --> "+notificacion.getMensaje()+"______");
+        System.out.println("____Notificacion --> "+notificacion.getMensaje()+"______");
         for(IUsuario u : usuarios){
             if(notificacion instanceof Video && u.isVideo()){
                 u.update(notificacion);
-            } else if (!u.isVideo()) {
+            } else if (!u.isVideo() && notificacion instanceof Imagen) {
                 u.update(notificacion);
 
             }

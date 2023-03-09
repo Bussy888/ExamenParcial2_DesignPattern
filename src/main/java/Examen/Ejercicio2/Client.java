@@ -23,8 +23,8 @@ public class Client {
         s2.addPlayer(d1).addPlayer(d2).addPlayer(d3).addPlayer(d4);
 
         j1.send("Rush B", j3);
-        j1.send("Atacamos o defendemos?");
-        j1.sendAll("GG boyz", "docentes");
+        j3.send("Atacamos o defendemos?");
+        j2.sendAll("GG boyz", "docentes");
 
 
     }

@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6c6d93f-c1db-498d-a4e6-d93972c94153" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/CIOrden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/CarreraOrden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/Colegio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/ICategoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/NombreOrden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio3/Web.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio5/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio5/IState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio5/Off.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio5/On.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio5/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio5/Restart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/CIOrden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/CIOrden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/CarreraOrden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/CarreraOrden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/Colegio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/Colegio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/NombreOrden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examen/Ejercicio4/NombreOrden.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Examen.Ejercicio3.Client">
+  <component name="RunManager" selected="Application.Examen.Ejercicio2.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Examen.Ejercicio1.Client" />
       <module name="ExamenParcial2_DesignPattern.main" />
@@ -92,8 +93,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Examen.Ejercicio4.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Examen.Ejercicio4.Client" />
+      <module name="ExamenParcial2_DesignPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Examen.Ejercicio4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Examen.Ejercicio5.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Examen.Ejercicio5.Client" />
+      <module name="ExamenParcial2_DesignPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Examen.Ejercicio5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Examen.Ejercicio5.Client" />
+        <item itemvalue="Application.Examen.Ejercicio4.Client" />
         <item itemvalue="Application.Examen.Ejercicio3.Client" />
         <item itemvalue="Application.Examen.Ejercicio2.Client" />
         <item itemvalue="Application.Client" />
@@ -137,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678317053217</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit 3">
+      <created>1678318274490</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678318274490</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,6 +181,7 @@
     <MESSAGE value="Carpeta Examen" />
     <MESSAGE value="Commit 1" />
     <MESSAGE value="Commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 2" />
+    <MESSAGE value="Commit 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 3" />
   </component>
 </project>

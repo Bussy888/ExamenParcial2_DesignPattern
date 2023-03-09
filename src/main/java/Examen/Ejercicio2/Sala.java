@@ -35,7 +35,12 @@ public class Sala implements IChat{
     public void send(String mensaje, IPlayer emisor, IPlayer receptor, String sala) {
         if (receptor == null && sala.equals("")){
             iterar(mensaje, emisor);
-            salas.get(sala).recibir(mensaje, emisor);
+        }else if(receptor != null && sala.equals("")){
+            receptor.recibir(mensaje, emisor);
+        } else if (!sala.equals("")) {
+            iterar(mensaje, emisor);
+            salas.get(sala).recibir(mensaje,emisor);
+
         }
     }
 }

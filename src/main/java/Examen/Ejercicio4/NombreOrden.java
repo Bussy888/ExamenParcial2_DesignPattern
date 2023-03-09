@@ -25,7 +25,7 @@ public class NombreOrden implements ICategoria{
             }
         }
         for (int i = 0 ; i < n ; i++){
-            System.out.println(nombres[i]+" ");
+            System.out.print(nombres[i]+" ");
         }
         System.out.println();
         return estudiantes;

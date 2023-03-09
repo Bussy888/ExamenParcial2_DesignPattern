@@ -29,7 +29,8 @@ public class Colegio {
 
     public void showEstudiantes(){
         for (Estudiante e: estudiantes){
-            System.out.println(e.getNombre());
+            System.out.print(e.getNombre()+ "  ");
         }
+        System.out.println();
     }
 }

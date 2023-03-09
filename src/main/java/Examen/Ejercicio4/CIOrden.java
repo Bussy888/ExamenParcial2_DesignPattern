@@ -25,7 +25,7 @@ public class CIOrden implements ICategoria{
             }
         }
         for (int i = 0 ; i < n ; i++){
-            System.out.println(cis[i]+" ");
+            System.out.print(cis[i]+" ");
         }
         System.out.println();
         return estudiantes;

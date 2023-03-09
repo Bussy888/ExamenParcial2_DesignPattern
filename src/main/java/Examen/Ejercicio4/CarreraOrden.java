@@ -25,7 +25,7 @@ public class CarreraOrden implements ICategoria{
             }
         }
         for (int i = 0 ; i < n ; i++){
-            System.out.println(carrera[i]+" ");
+            System.out.print(carrera[i]+" ");
         }
         System.out.println();
         return estudiantes;
